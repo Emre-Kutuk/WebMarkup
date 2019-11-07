@@ -8,7 +8,7 @@ body {
 }
 
 main {
-    padding: 1.25em 0 4.375 0;
+    padding: 1.25em 0 4.375em 0;
 }
 
 video {
@@ -75,7 +75,7 @@ header nav > ul.menu {
     -moz-border-radius: 0.625em;
 }
 
-header nav > ul.mobile {
+header nav > img.mobile {
     display: none;
 }
 
@@ -238,11 +238,13 @@ section.cookie-statement {
         border: 0;
     }
 
-    header nav ul.mobile {
+    header nav img.mobile {
         display: block;
-        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
         padding: 0;
         text-align: center;
+        
     }
 
     header nav ul.menu {
@@ -270,7 +272,7 @@ section.cookie-statement {
 
     header nav:hover ul.menu {
         padding: 0.625em;
-        height: 12.0625em;
+        height: 13.5em;
         overflow: unset;
     }
 
